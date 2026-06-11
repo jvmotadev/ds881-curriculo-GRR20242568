@@ -64,3 +64,5 @@ A branch `main` está configurada com as seguintes regras:
 - ✅ Require branches to be up to date before merging
 - ✅ Block force pushes
 - ✅ Restrict deletions
+
+![alt text](/docs/image.png)
