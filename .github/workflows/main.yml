@@ -2,8 +2,10 @@ name: CI/CD
 
 on:
   push:
-    branches-ignore:
+    branches:
       - main
+      - "feat/**"
+      - "fix/**"
   pull_request:
     branches:
       - main
