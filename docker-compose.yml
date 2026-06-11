@@ -1,0 +1,8 @@
+services:
+  hugo:
+    build: .
+    ports:
+      - "8080:1313"
+    volumes:
+      - ./site:/site
+    command: hugo server --bind 0.0.0.0 --baseURL http://localhost:8080 --watch --poll 700ms
