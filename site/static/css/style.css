@@ -1,0 +1,84 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #0f1117;
+  color: #e2e8f0;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.hero {
+  border-left: 4px solid #6366f1;
+  padding-left: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin: 0.25rem 0 1rem;
+}
+
+.contacts { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.contacts a { color: #6366f1; text-decoration: none; font-size: 0.95rem; }
+.contacts a:hover { text-decoration: underline; }
+
+section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #1e293b;
+}
+
+section:last-child { border-bottom: none; }
+
+h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6366f1;
+  margin-bottom: 1.25rem;
+}
+
+.item { margin-bottom: 1.5rem; }
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.item-header strong { color: #f1f5f9; }
+.item-header span { color: #64748b; font-size: 0.875rem; }
+
+ul { padding-left: 1.25rem; }
+li { color: #94a3b8; margin-bottom: 0.3rem; font-size: 0.95rem; }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skills span {
+  background: #1e293b;
+  color: #a5b4fc;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  border: 1px solid #334155;
+}
